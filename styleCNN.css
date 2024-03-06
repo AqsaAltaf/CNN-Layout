@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+@media screen and (max-width: 500px ) {
+    .sec1 {
+        display: block; /* Change to 'block' or another appropriate value */
+         
+        background-color: lightcoral;
+    }
+}
+.container{
+    width: 100%;
+    padding: 15px 30px 15px 30px;
+    box-sizing: border-box;
+     
+}
+.header{
+    width: 100%;
+    height: 255px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width: 100%;
+    height: 40px;
+    padding: 0px 30px 0px 30px;
+    /* background-color: palevioletred; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 215px;
+    gap: 5%;
+    box-sizing: inherit;
+    justify-content: space-between;
+    color: white;
+}
+.menu-left{
+    width: 70%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    box-sizing: inherit;
+}
+ .menu a{
+    display: block;
+    color: white;
+    display: flex;
+    text-align: left;
+    font-size: 15px;
+    font-family: cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+    cursor: pointer;
+    padding:  0px 12px;
+    justify-content: space-around;
+ }
+.menu a:hover{
+    cursor: pointer;
+}
+
+.menu-right{
+    width: 20%;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.loginB{
+     
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+    box-sizing: border-box;
+    font-weight: 700px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+.search-icon{
+    width: 27px;
+    height: 27px;
+}
+ 
+.ribbon{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    font-size: 14px;
+    font-family: cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif; 
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+.ribbon a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ribbon a{
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+.ribbon a:after{
+        color: #8a8585;
+        content: '|';
+        margin-left: 30px;
+    } 
+.sec1 {
+        width: 100%;
+        display: flex;
+        gap: 2%;
+    }
+    
+
+.left-part{
+    width: 50%;
+     
+}
+h2{
+
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.headline{
+     
+    width: 100%;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+    margin-top: 10px;
+     
+}
+.headline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.points{
+         
+         
+        font-family:  cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 10px;
+}
+.points p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.points p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.right-part{
+    width: 25%;
+}
+hr{
+    width: 100%;
+    border-top: 1px solid;
+    border-color: rgb(238, 233, 233);
+    
+}
+
+.sec2{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    gap: 2%;
+     
+}
+
+
+.sec2-h2{
+    font-size: 12px;
+    margin-top: 5px;
+    font-family:  cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 700;
+    width: 100%;
+} 
+.ad-slot{
+    width: 300px;
+    padding: 0px 5px;
+    height: 270;
+}
+.ad-label:after{
+    content: 'Advertisement';
+    font-size: 12px;
+    color: #6e6e6e;
+    margin-left: 5px;
+}
+img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.Featured-sec, .Featured-sec2{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    gap: 2%;     
+}
+h1{
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+.F-sec{
+    width: 100%;
+     
+}
+.ad-slot2{
+     
+        width: 300px;
+        padding: 0px 5px;
+        height: 270;
+        margin: 0px 40px;
+        background-color:gray;
+        animation-name: change-color;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        opacity: 0.3;
+}
+@keyframes change-color {
+    from {background-color: rgb(172, 169, 169);}
+    to {background-color: rgb(231, 220, 220);}
+  }
+
+.watch-it{
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    gap: 2%;  
+    
+}
+.Video1{
+    width: 50%;
+    
+}
+.gallery{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    gap: 2%;
+    
+}
+.gallery-column{
+    width: 45%;
+     
+}
+.ad-slot3{
+     
+    width: 300px;
+    padding: 0px 15px;
+    height: 270;
+    margin: 0px 60px;
+    background-color:gray;
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    opacity: 0.3;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 2%;
+    flex-direction: column;
+}
+.paid-content{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    gap: 2%;
+     
+}
+.paid-content div{
+    width: 25%;
+}
+.paid-content p:hover{
+    color: rgb(168, 22, 22);
+    text-decoration: none;
+}
+.img-tag{
+    position: absolute;
+    bottom: -131px;
+    left: 30px;
+    width:fit-content;
+    height: 30px;
+    background-color: white;
+    padding: 0px 5px;
+    align-items: center;
+}
+.img-tag p{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+    text-align: center;
+    justify-content:center;
+     
+}
+.img-tag p::before{
+    content: '•'; 
+    color: #c00;
+    font-size: 26px;
+    padding-right: 4px;
+}
+.img-caption{
+    color: #6e6e6e;
+    font-family: cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 12px;
+    padding: 4px 0 8px;
+}
+/* .ellipsis-container {
+    
+    display: -webkit-box;  
+    -webkit-line-clamp: 3;  
+     
+    overflow: hidden;  
+    border: 1px solid #ccc; 
+    max-height: 5em;  
+    width: 25%;
+    -webkit-box-orient: vertical;
+}*/
+/* @media (min-width: 500px) {
+    .menu {
+      gap: 5%;
+      margin-top: 215px;
+}
+
+.menu-right {
+    width: 20%;
+  }
+
+  .menu a:hover {
+    cursor: pointer;
+  }
+
+  Additional styles for screens wider than 500px
+  .header {
+    height: 255px;
+  }
+
+  .menu a {
+    font-size: 16px;
+  }
+
+  .menu a:hover {
+    cursor: pointer;
+  }
+} */
+.footer-area{
+    width: 100%;
+    background-color: black;
+    padding: 15px 30px 15px 30px;
+    box-sizing: border-box;
+    
+}
+.missed-news{
+    
+     
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+     
+    gap: 2%;
+    color: white;
+    
+
+}
+.horizonatl-ad-slot{
+    width: 100%;
+    padding: 0px 15px 24px 15px;
+    margin-top: 48px;
+    height: 135px;
+}
+.h-ad-slot{
+    width: 730px;
+    margin: 0px 263px;
+     align-items: center;
+    display: block;
+    height: 110px;
+    background-color: #fff;
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    opacity: 0.8;
+}
+@keyframes change-color {
+from {background-color: rgb(252, 250, 250);}
+to {background-color: rgb(238, 227, 227);}
+}
+.search-form{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.search-bar{
+    height: 40px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-family: cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+    font-size: 16px;
+    height: 38px;
+    width: 100%;
+    box-shadow: none;
+    padding: 0px 128px 0px 8px;
+}
+.search-button{
+    position: absolute;
+    width: fit-content;
+    transform: translateY(-50%);
+    right: 0;
+    border: none;
+    box-shadow: none;
+    background: 0 0;
+    top: 40%;
+    text-align: right;
+    align-items: center;
+    height: 40px;
+    letter-spacing: 0;
+    color: black;
+    font-family: cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 700;
+     padding: 1px 6px;
+
+}
+
+.foot-col{
+
+    width: 14%; 
+    height: 100%;
+    display: flex;flex-direction: column;
+    align-items: center;
+}
+
+.foot-col p{
+
+    font-size: 14px;
+    color: white;
+    margin-top: 15px;
+    line-height: 10px;
+    font-family: cnn_sans_display,helveticaneue,Helvetica,Arial,Utkal,sans-serif;
+}
+
+
+
+
+
+
